@@ -2,8 +2,8 @@
 
 size_t	strlcpy(char *dst, const char *src, size_t dstsize)
 {
-	unsigned int	i;
-	unsigned int	ls;
+	size_t	i;
+	size_t	ls;
 
 	ls = 0;
 	i = 0;
