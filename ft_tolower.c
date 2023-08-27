@@ -1,6 +1,6 @@
 #include "libft.h"
 
-static int ft_is_upper(int c)
+static int	ft_is_upper(int c)
 {
 	if (c >= 65 && c <= 90)
 		return (1);

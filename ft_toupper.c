@@ -1,6 +1,6 @@
 #include "libft.h"
 
-static int ft_is_lower(int c)
+static int	ft_is_lower(int c)
 {
 	if (c >= 97 && c <= 122)
 		return (1);
