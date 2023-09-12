@@ -47,7 +47,6 @@ char	**ft_split(char const *s, char c)
 		j = i;
 		while (s[j] != c && s[j])
 			j++;
-		//tab[current_num_of_words] = ft_put_word_in_tab(s, i, j);
 		tab[current_num_of_words] = ft_substr(s, i, (j - i));
 		i = j;
 		current_num_of_words++;
@@ -56,6 +55,7 @@ char	**ft_split(char const *s, char c)
 	return (tab);
 }
 
+//tab[current_num_of_words] = ft_put_word_in_tab(s, i, j);
 /*int main()
 {
 	char **tab;
